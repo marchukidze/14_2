@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.calc {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#range {
+  margin-right: 25px;
+}
+
+.diagram-block {
+  height: 108px;
+  width: 41px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+.value {
+  background-color: green; 
+}
+
+.commission{
+  background-color: red;
+}
