@@ -7,9 +7,9 @@ const value = document.querySelector('.value');
 const comm = document.querySelector('.commission');
 // range
 	range.addEventListener('input', function(){
-		var currentValue = range.value;
-		number.value = currentValue;
-		value.style.height = currentValue + 'px';
+	var currentValue = range.value;
+	number.value = currentValue;
+	value.style.height = currentValue + 'px';
         calcCommiss()
 	});
 // number
